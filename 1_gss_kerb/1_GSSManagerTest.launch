@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/1_gss_kerb/src/main/java/GSSManagerTest.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.5.0_22"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="GSSManagerTest"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="1_gss_kerb"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Djava.security.krb5.realm=AD.SI2M.TEC&#13;&#10;-Djava.security.krb5.kdc=AD.SI2M.TEC&#13;&#10;-Djavax.security.auth.useSubjectCredsOnly=false &#13;&#10;-Djava.security.auth.login.config=${workspace_loc:/1_gss_kerb}\src\main\resources\ClientLogin.conf"/>
+</launchConfiguration>

@@ -1,0 +1,6 @@
+SpnegoAuthenticator:
+
+-Djava.security.krb5.realm=CM.PAR.EMEA.CIB
+-Djava.security.krb5.kdc=CM.PAR.EMEA.CIB
+-Djavax.security.auth.useSubjectCredsOnly=false
+-Djava.security.auth.login.config="D:\workspaces\workspace_oscar\9_GssHttpServer\src\main\resources\ServerLogin.conf"

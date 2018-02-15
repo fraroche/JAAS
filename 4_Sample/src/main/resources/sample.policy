@@ -1,0 +1,16 @@
+/** Access Control Policy for the Sample Application **/
+
+
+grant codebase "file:/home/nta/views/local/JAAS/4_Sample/target/classes/*" {
+   permission java.security.AllPermission;
+   permission javax.security.auth.AuthPermission "createLoginContext.SAMPLE_CONF";
+};
+
+grant codebase 
+"file:/home/nta/views/local/JAAS/4_Sample/target/classes/sample/Sample.class", 
+Principal javax.security.auth.kerberos.KerberosPrincipal "idei080@AD.SI2M.TEC"  {
+	permission java.util.PropertyPermission "java.home", "read";
+	permission java.util.PropertyPermission "user.home", "read";
+	permission java.io.FilePermission "foo.txt", "read";
+};
+

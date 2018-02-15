@@ -1,0 +1,718 @@
+<?xml version="1.0"?>
+<TRACE>
+<node nodeId="" hostname="DMC26147" ipaddress="10.146.239.124,127.0.0.1" timezone="-60" time="1257502425.630862712"/>
+<processCreate processId="" pid="4168" nodeIdRef="" time="1257502425.630862712"/>
+<agentCreate agentId="e811ec7b-a1c1-4d78-977e-37dfede915d8" version="1.000" processIdRef="" agentName="Java Profiling Agent" agentType="Profiler" agentParameters="server=standalone,filters=D:\workspaces\workspace_oscar\9_GssHttpServer\myFilters.txt,file=D:\workspaces\workspace_oscar\9_GssHttpServer\Krb5ProfilingData.trcxml" time="1257502425.754999876"/>
+<traceStart traceId="7a0bdde7-0d96-44b3-984e-7efb55c06bc9" agentIdRef="e811ec7b-a1c1-4d78-977e-37dfede915d8" time="1257502425.761165380"/>
+<filter pattern="fr.nta" mode="INCLUDE" genericPattern="SUFFIX" methodPattern="" methodMode="INCLUDE" methodGenericPattern="PREFIX"/>
+<filter pattern="" mode="EXCLUDE" genericPattern="PREFIX" methodPattern="" methodMode="EXCLUDE" methodGenericPattern="PREFIX"/>
+<option key="CLASS_LOAD_DETAILS" value="false"/>
+<option key="METHOD_DETAILS" value="false"/>
+<option key="COLLATION_VALUES" value="false"/>
+<option key="CONTEXT_FLOW" value="false"/>
+<option key="FILTERS" value="true"/>
+<option key="TRACK_GC_EVENT_TYPES" value="frees"/>
+<option key="ID_STYLE" value="static"/>
+<option key="OBJ_REF_MODE" value="filterOwner"/>
+<option key="METHOD_COUNTS" value="false"/>
+<option key="OBJ_ALLOC_IS_ARRAY" value="true"/>
+<option key="OPTIONS" value="true"/>
+<option key="STACK_INFORMATION" value="contiguous"/>
+<option key="COMPRESS" value="none"/>
+<option key="TRACE_MODE" value="full"/>
+<option key="TICKET" value="true"/>
+<option key="TIMESTAMPS" value="true"/>
+<option key="TRACE_IDREFS" value="false"/>
+<option key="UNREFERENCED_SYMBOLS" value="false"/>
+<option key="CPU_TIME" value="false"/>
+<option key="LLDATA_ENABLED" value="false"/>
+<option key="HEAP_INFO_FILE_PREFIX" value="optHeap"/>
+<option key="MONITOR_MODE" value="none"/>
+<option key="METHOD_COUNTS_ONLY" value="false"/>
+<option key="EXTENSION_LIBRARY" value=""/>
+<threadStart threadId="2" time="1257502425.765374183" threadName="main" groupName="main" parentName="system" objIdRef="0"/>
+<runtimeInitDone threadIdRef="2" time="1257502425.768144607"/>
+<classDef threadIdRef="4" name="java.lang.Class" sourceName="Class.java" classId="101" time="1257502425.769097328"/>
+<objAlloc threadIdRef="4" time="1257502425.770507574" objId="158" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="4" name="java.lang.Thread" sourceName="Thread.java" classId="157" objIdRef="158" time="1257502425.769664764"/>
+<objAlloc threadIdRef="4" time="1257502425.770507097" objId="253" classIdRef="157" isArray="0" size="72"/>
+<threadStart threadId="4" time="1257502425.770506143" threadName="Signal Dispatcher" groupName="system" parentName="" objIdRef="253"/>
+<gcStart threadIdRef="2" time="1257502426.288593292"/>
+<gcFinish threadIdRef="2" time="1257502426.315772056" usedObjects="51603" usedObjSpace="321984" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502426.506735801"/>
+<gcFinish threadIdRef="2" time="1257502426.528795242" usedObjects="58826" usedObjSpace="335848" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502426.924764394"/>
+<gcFinish threadIdRef="2" time="1257502426.969289541" usedObjects="62653" usedObjSpace="486984" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502427.203014850"/>
+<gcFinish threadIdRef="2" time="1257502427.225593805" usedObjects="64117" usedObjSpace="528928" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502427.405232429"/>
+<gcFinish threadIdRef="2" time="1257502427.427334308" usedObjects="67440" usedObjSpace="564376" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502427.720817804"/>
+<gcFinish threadIdRef="2" time="1257502427.748506546" usedObjects="87767" usedObjSpace="754704" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502427.884404897"/>
+<gcFinish threadIdRef="2" time="1257502427.937106847" usedObjects="89172" usedObjSpace="683568" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502428.214176654"/>
+<gcFinish threadIdRef="2" time="1257502428.245080232" usedObjects="90510" usedObjSpace="750120" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502428.549077987"/>
+<gcFinish threadIdRef="2" time="1257502428.582458972" usedObjects="92285" usedObjSpace="809264" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502428.706162214"/>
+<gcFinish threadIdRef="2" time="1257502428.734000444" usedObjects="94667" usedObjSpace="841616" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502428.854325056"/>
+<gcFinish threadIdRef="2" time="1257502428.898028850" usedObjects="95756" usedObjSpace="775728" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502429.077091455"/>
+<gcFinish threadIdRef="2" time="1257502429.105614900" usedObjects="100033" usedObjSpace="884096" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502429.229067087"/>
+<gcFinish threadIdRef="2" time="1257502429.259464502" usedObjects="102046" usedObjSpace="941312" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502429.375596761"/>
+<gcFinish threadIdRef="2" time="1257502429.406059503" usedObjects="104142" usedObjSpace="939480" totalObjSpace="2031616"/>
+<gcStart threadIdRef="2" time="1257502429.611705541"/>
+<gcFinish threadIdRef="2" time="1257502429.659839630" usedObjects="105656" usedObjSpace="995600" totalObjSpace="2252800"/>
+<gcStart threadIdRef="2" time="1257502429.957197666"/>
+<gcFinish threadIdRef="2" time="1257502429.992967605" usedObjects="107210" usedObjSpace="1081712" totalObjSpace="2396160"/>
+<gcStart threadIdRef="2" time="1257502430.494306802"/>
+<gcFinish threadIdRef="2" time="1257502430.529360055" usedObjects="107037" usedObjSpace="1038200" totalObjSpace="2396160"/>
+<gcStart threadIdRef="2" time="1257502431.018529653"/>
+<gcFinish threadIdRef="2" time="1257502431.052670717" usedObjects="109282" usedObjSpace="1130184" totalObjSpace="2396160"/>
+<gcStart threadIdRef="2" time="1257502431.554745674"/>
+<gcFinish threadIdRef="2" time="1257502431.610932826" usedObjects="110102" usedObjSpace="1126760" totalObjSpace="2396160"/>
+<gcStart threadIdRef="2" time="1257502432.130359172"/>
+<gcFinish threadIdRef="2" time="1257502432.178049802" usedObjects="109421" usedObjSpace="1129280" totalObjSpace="2396160"/>
+<gcStart threadIdRef="2" time="1257502432.516242027"/>
+<gcFinish threadIdRef="2" time="1257502432.549464464" usedObjects="110512" usedObjSpace="1135672" totalObjSpace="2396160"/>
+<gcStart threadIdRef="2" time="1257502432.923174381"/>
+<gcFinish threadIdRef="2" time="1257502432.957649469" usedObjects="110254" usedObjSpace="1044992" totalObjSpace="2396160"/>
+<gcStart threadIdRef="2" time="1257502433.426559686"/>
+<gcFinish threadIdRef="2" time="1257502433.491333961" usedObjects="111766" usedObjSpace="1174712" totalObjSpace="2547712"/>
+<gcStart threadIdRef="2" time="1257502433.972706556"/>
+<gcFinish threadIdRef="2" time="1257502434.007917881" usedObjects="112529" usedObjSpace="1299400" totalObjSpace="2756608"/>
+<gcStart threadIdRef="2" time="1257502434.420214891"/>
+<gcFinish threadIdRef="2" time="1257502434.456663131" usedObjects="112534" usedObjSpace="1269832" totalObjSpace="2756608"/>
+<gcStart threadIdRef="2" time="1257502434.985181570"/>
+<gcFinish threadIdRef="2" time="1257502435.022137880" usedObjects="113255" usedObjSpace="1336448" totalObjSpace="2756608"/>
+<gcStart threadIdRef="2" time="1257502435.567570924"/>
+<gcFinish threadIdRef="2" time="1257502435.607586622" usedObjects="114153" usedObjSpace="1272304" totalObjSpace="2756608"/>
+<gcStart threadIdRef="2" time="1257502436.057557821"/>
+<gcFinish threadIdRef="2" time="1257502436.094478130" usedObjects="115083" usedObjSpace="1298672" totalObjSpace="2756608"/>
+<gcStart threadIdRef="2" time="1257502436.352068901"/>
+<gcFinish threadIdRef="2" time="1257502436.388023376" usedObjects="117319" usedObjSpace="1278992" totalObjSpace="2756608"/>
+<gcStart threadIdRef="2" time="1257502436.746230125"/>
+<gcFinish threadIdRef="2" time="1257502436.782127618" usedObjects="119049" usedObjSpace="1315128" totalObjSpace="2756608"/>
+<gcStart threadIdRef="2" time="1257502436.978567361"/>
+<gcFinish threadIdRef="2" time="1257502437.031447887" usedObjects="120040" usedObjSpace="1269008" totalObjSpace="2756608"/>
+<gcStart threadIdRef="2" time="1257502437.309491872"/>
+<gcFinish threadIdRef="2" time="1257502437.347841262" usedObjects="124371" usedObjSpace="1380176" totalObjSpace="2891776"/>
+<gcStart threadIdRef="2" time="1257502437.663478136"/>
+<gcFinish threadIdRef="2" time="1257502437.705800771" usedObjects="126910" usedObjSpace="1459472" totalObjSpace="2891776"/>
+<gcStart threadIdRef="2" time="1257502438.009554624"/>
+<gcFinish threadIdRef="2" time="1257502438.048210144" usedObjects="129632" usedObjSpace="1530600" totalObjSpace="3141632"/>
+<gcStart threadIdRef="2" time="1257502438.288640737"/>
+<gcFinish threadIdRef="2" time="1257502438.361996173" usedObjects="134691" usedObjSpace="1468136" totalObjSpace="3141632"/>
+<gcStart threadIdRef="2" time="1257502438.817930459"/>
+<gcFinish threadIdRef="2" time="1257502438.860085248" usedObjects="137235" usedObjSpace="1648456" totalObjSpace="3338240"/>
+<gcStart threadIdRef="2" time="1257502439.408639907"/>
+<gcFinish threadIdRef="2" time="1257502439.461065530" usedObjects="141087" usedObjSpace="1726880" totalObjSpace="3338240"/>
+<gcStart threadIdRef="2" time="1257502440.747371196"/>
+<gcFinish threadIdRef="2" time="1257502440.813962459" usedObjects="146024" usedObjSpace="1885128" totalObjSpace="3735552"/>
+<gcStart threadIdRef="2" time="1257502442.443822383"/>
+<gcFinish threadIdRef="2" time="1257502442.569397926" usedObjects="152032" usedObjSpace="1918296" totalObjSpace="3735552"/>
+<gcStart threadIdRef="2" time="1257502443.756247043"/>
+<gcFinish threadIdRef="2" time="1257502443.826051950" usedObjects="155892" usedObjSpace="2098264" totalObjSpace="4087808"/>
+<gcStart threadIdRef="2" time="1257502445.572616577"/>
+<gcFinish threadIdRef="2" time="1257502445.660034418" usedObjects="162042" usedObjSpace="2285552" totalObjSpace="4399104"/>
+<gcStart threadIdRef="2" time="1257502446.930557966"/>
+<gcFinish threadIdRef="2" time="1257502447.008690118" usedObjects="166479" usedObjSpace="2408872" totalObjSpace="4608000"/>
+<gcStart threadIdRef="2" time="1257502448.529693841"/>
+<gcFinish threadIdRef="2" time="1257502448.696344614" usedObjects="171633" usedObjSpace="2365080" totalObjSpace="4608000"/>
+<gcStart threadIdRef="2" time="1257502450.881381034"/>
+<gcFinish threadIdRef="2" time="1257502450.978267908" usedObjects="180261" usedObjSpace="2825928" totalObjSpace="5300224"/>
+<gcStart threadIdRef="2" time="1257502452.107673168"/>
+<gcFinish threadIdRef="2" time="1257502452.188337802" usedObjects="184722" usedObjSpace="2990392" totalObjSpace="5574656"/>
+<gcStart threadIdRef="2" time="1257502452.989865303"/>
+<gcFinish threadIdRef="2" time="1257502453.059248447" usedObjects="189070" usedObjSpace="3049560" totalObjSpace="5574656"/>
+<gcStart threadIdRef="2" time="1257502454.129338979"/>
+<gcFinish threadIdRef="2" time="1257502454.311415672" usedObjects="196464" usedObjSpace="2963888" totalObjSpace="5574656"/>
+<gcStart threadIdRef="2" time="1257502455.475116014"/>
+<gcFinish threadIdRef="2" time="1257502455.563587903" usedObjects="195807" usedObjSpace="3191384" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502456.650259256"/>
+<gcFinish threadIdRef="2" time="1257502456.738799095" usedObjects="194868" usedObjSpace="3150816" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502457.837453842"/>
+<gcFinish threadIdRef="2" time="1257502457.919795989" usedObjects="194790" usedObjSpace="3173992" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502458.969055891"/>
+<gcFinish threadIdRef="2" time="1257502459.152677774" usedObjects="194679" usedObjSpace="2910872" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502460.335970878"/>
+<gcFinish threadIdRef="2" time="1257502460.422616004" usedObjects="194743" usedObjSpace="3142216" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502461.465572595"/>
+<gcFinish threadIdRef="2" time="1257502461.548901081" usedObjects="194623" usedObjSpace="3143744" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502462.649202823"/>
+<gcFinish threadIdRef="2" time="1257502462.740009069" usedObjects="194873" usedObjSpace="3184152" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502463.813098669"/>
+<gcFinish threadIdRef="2" time="1257502463.893486022" usedObjects="194906" usedObjSpace="2930696" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502465.081429958"/>
+<gcFinish threadIdRef="2" time="1257502465.170390844" usedObjects="194980" usedObjSpace="3161880" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502466.262346267"/>
+<gcFinish threadIdRef="2" time="1257502466.340495824" usedObjects="195041" usedObjSpace="3196192" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502467.396087646"/>
+<gcFinish threadIdRef="2" time="1257502467.474847555" usedObjects="195100" usedObjSpace="3189880" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502468.540423393"/>
+<gcFinish threadIdRef="2" time="1257502468.618747711" usedObjects="195001" usedObjSpace="2932048" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502469.789902448"/>
+<gcFinish threadIdRef="2" time="1257502469.876092672" usedObjects="195026" usedObjSpace="3181776" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502470.923477172"/>
+<gcFinish threadIdRef="2" time="1257502471.010004281" usedObjects="195282" usedObjSpace="3206584" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502472.010180234"/>
+<gcFinish threadIdRef="2" time="1257502472.087883472" usedObjects="195355" usedObjSpace="3202408" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502473.147324562"/>
+<gcFinish threadIdRef="2" time="1257502473.287926197" usedObjects="196263" usedObjSpace="2965536" totalObjSpace="5910528"/>
+<gcStart threadIdRef="2" time="1257502475.021326541"/>
+<gcFinish threadIdRef="2" time="1257502475.125712871" usedObjects="211583" usedObjSpace="3447576" totalObjSpace="6336512"/>
+<objAlloc threadIdRef="2" time="1257502475.638304710" objId="600730" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="2" name="fr.nta.filter.SecurityFilter" sourceName="SecurityFilter.java" classId="601397" objIdRef="600730" time="1257502475.638302326"/>
+<objAlloc threadIdRef="2" time="1257502475.638304471" objId="601398" classIdRef="601397" isArray="0" size="16"/>
+<methodDef name="-init-" signature="()V" startLineNumber="18" endLineNumber="18" methodId="601396" classIdRef="601397"/>
+<methodEntry threadIdRef="2" time="1257502475.638333559" methodIdRef="601396" objIdRef="601398" classIdRef="601397" ticket="17784937" stackDepth="25"/>
+<methodExit threadIdRef="2" methodIdRef="601396" objIdRef="601398" classIdRef="601397" ticket="17784937" time="1257502475.638355016" overhead="0.000014699"/>
+<methodDef name="init" signature="(Ljavax/servlet/FilterConfig;)V" startLineNumber="37" endLineNumber="38" methodId="601395" classIdRef="601397"/>
+<methodEntry threadIdRef="2" time="1257502475.638473272" methodIdRef="601395" objIdRef="601398" classIdRef="601397" ticket="17784963" stackDepth="19"/>
+<objAlloc threadIdRef="2" time="1257502475.777768611" objId="601806" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="2" name="fr.nta.security.http.spnego.SpnegoAuthenticator" sourceName="SpnegoAuthenticator.java" classId="602119" objIdRef="601806" time="1257502475.777766704"/>
+<methodDef name="-clinit-" signature="()V" startLineNumber="28" endLineNumber="26" methodId="602117" classIdRef="602119"/>
+<methodEntry threadIdRef="2" time="1257502475.777735948" methodIdRef="602117" classIdRef="602119" ticket="17817591" stackDepth="20"/>
+<methodExit threadIdRef="2" methodIdRef="602117" classIdRef="602119" ticket="17817591" time="1257502475.780982732" overhead="0.000074274"/>
+<objAlloc threadIdRef="2" time="1257502475.780996561" objId="602191" classIdRef="602119" isArray="0" size="16"/>
+<methodDef name="-init-" signature="(Lfr/nta/security/http/IHttpAuthorizationChainComponant;)V" startLineNumber="31" endLineNumber="32" methodId="602118" classIdRef="602119"/>
+<methodEntry threadIdRef="2" time="1257502475.781007051" methodIdRef="602118" objIdRef="602191" classIdRef="602119" ticket="17818832" stackDepth="20"/>
+<objAlloc threadIdRef="2" time="1257502475.781101465" objId="601774" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="2" name="fr.nta.security.http.HttpAuthorizationDecorator" sourceName="HttpAuthorizationDecorator.java" classId="602193" objIdRef="601774" time="1257502475.781100034"/>
+<methodDef name="-init-" signature="(Lfr/nta/security/http/IHttpAuthorizationChainComponant;)V" startLineNumber="8" endLineNumber="10" methodId="602192" classIdRef="602193"/>
+<methodEntry threadIdRef="2" time="1257502475.781090259" methodIdRef="602192" objIdRef="602191" classIdRef="602193" ticket="17818833" stackDepth="21"/>
+<methodExit threadIdRef="2" methodIdRef="602192" objIdRef="602191" classIdRef="602193" ticket="17818833" time="1257502475.781136512" overhead="0.000039409"/>
+<methodExit threadIdRef="2" methodIdRef="602118" objIdRef="602191" classIdRef="602119" ticket="17818832" time="1257502475.781144857" overhead="0.000078375"/>
+<methodExit threadIdRef="2" methodIdRef="601395" objIdRef="601398" classIdRef="601397" ticket="17784963" time="1257502475.781155347" overhead="0.000061030"/>
+<objAlloc threadIdRef="2" time="1257502475.904791831" objId="603166" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="2" name="fr.nta.foo.InitServlet" sourceName="InitServlet.java" classId="604241" objIdRef="603166" time="1257502475.904789209"/>
+<objAlloc threadIdRef="2" time="1257502475.904791355" objId="604242" classIdRef="604241" isArray="0" size="16"/>
+<methodDef name="-init-" signature="()V" startLineNumber="16" endLineNumber="17" methodId="604240" classIdRef="604241"/>
+<methodEntry threadIdRef="2" time="1257502475.904830932" methodIdRef="604240" objIdRef="604242" classIdRef="604241" ticket="17857157" stackDepth="24"/>
+<methodExit threadIdRef="2" methodIdRef="604240" objIdRef="604242" classIdRef="604241" ticket="17857157" time="1257502475.904904365" overhead="0.000014947"/>
+<methodDef name="init" signature="()V" startLineNumber="31" endLineNumber="33" methodId="604239" classIdRef="604241"/>
+<methodEntry threadIdRef="2" time="1257502475.911755323" methodIdRef="604239" objIdRef="604242" classIdRef="604241" ticket="17859504" stackDepth="19"/>
+<methodExit threadIdRef="2" methodIdRef="604239" objIdRef="604242" classIdRef="604241" ticket="17859504" time="1257502475.914356231" overhead="0.000037281"/>
+<gcStart threadIdRef="2" time="1257502476.212825775"/>
+<gcFinish threadIdRef="2" time="1257502476.296553850" usedObjects="219641" usedObjSpace="3588872" totalObjSpace="6574080"/>
+<gcStart threadIdRef="2" time="1257502478.170946598"/>
+<gcFinish threadIdRef="2" time="1257502478.282965660" usedObjects="229534" usedObjSpace="4014520" totalObjSpace="7282688"/>
+<gcStart threadIdRef="2" time="1257502481.365380287"/>
+<gcFinish threadIdRef="2" time="1257502481.684805393" usedObjects="238159" usedObjSpace="4056392" totalObjSpace="7282688"/>
+<gcStart threadIdRef="2" time="1257502483.575606822"/>
+<gcFinish threadIdRef="2" time="1257502483.664909839" usedObjects="238453" usedObjSpace="4462888" totalObjSpace="8028160"/>
+<gcStart threadIdRef="2" time="1257502484.907953023"/>
+<gcFinish threadIdRef="2" time="1257502485.011554002" usedObjects="241529" usedObjSpace="4615376" totalObjSpace="8286208"/>
+<gcStart threadIdRef="2" time="1257502486.996313333"/>
+<gcFinish threadIdRef="2" time="1257502487.103987455" usedObjects="243257" usedObjSpace="4825000" totalObjSpace="8699904"/>
+<gcStart threadIdRef="2" time="1257502488.954844951"/>
+<gcFinish threadIdRef="2" time="1257502489.198229312" usedObjects="243076" usedObjSpace="4455792" totalObjSpace="8699904"/>
+<gcStart threadIdRef="2" time="1257502491.108041286"/>
+<gcFinish threadIdRef="2" time="1257502491.204007625" usedObjects="241911" usedObjSpace="4796464" totalObjSpace="8699904"/>
+<gcStart threadIdRef="2" time="1257502492.882343053"/>
+<gcFinish threadIdRef="2" time="1257502492.970016241" usedObjects="242074" usedObjSpace="4802728" totalObjSpace="8699904"/>
+<gcStart threadIdRef="2" time="1257502494.616559743"/>
+<gcFinish threadIdRef="2" time="1257502494.704350471" usedObjects="242235" usedObjSpace="4809480" totalObjSpace="8699904"/>
+<gcStart threadIdRef="2" time="1257502496.529106378"/>
+<gcFinish threadIdRef="2" time="1257502496.738763570" usedObjects="244502" usedObjSpace="4550496" totalObjSpace="8699904"/>
+<gcStart threadIdRef="2" time="1257502499.340655088"/>
+<gcFinish threadIdRef="2" time="1257502499.479327678" usedObjects="251415" usedObjSpace="5137024" totalObjSpace="9220096"/>
+<objAlloc threadIdRef="7" time="1257502500.683299303" objId="847438" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="7" name="org.apache.log4j.PropertyWatchdog" sourceName="PropertyConfigurator.java" classId="847507" objIdRef="847438" time="1257502500.515246868"/>
+<objAlloc threadIdRef="7" time="1257502500.683298349" objId="847508" classIdRef="847507" isArray="0" size="96"/>
+<threadStart threadId="7" time="1257502500.683297157" threadName="Thread-1" groupName="main" parentName="system" objIdRef="847508"/>
+<gcStart threadIdRef="2" time="1257502501.395175695"/>
+<gcFinish threadIdRef="2" time="1257502501.516921997" usedObjects="258517" usedObjSpace="5291496" totalObjSpace="9543680"/>
+<gcStart threadIdRef="2" time="1257502502.818081140"/>
+<gcFinish threadIdRef="2" time="1257502502.922476053" usedObjects="263796" usedObjSpace="5307320" totalObjSpace="9543680"/>
+<gcStart threadIdRef="2" time="1257502504.089940071"/>
+<gcFinish threadIdRef="2" time="1257502504.360162019" usedObjects="280490" usedObjSpace="5057816" totalObjSpace="9543680"/>
+<gcStart threadIdRef="2" time="1257502506.041788578"/>
+<gcFinish threadIdRef="2" time="1257502506.157731294" usedObjects="289538" usedObjSpace="5663704" totalObjSpace="10227712"/>
+<gcStart threadIdRef="2" time="1257502507.766945838"/>
+<gcFinish threadIdRef="2" time="1257502507.889971971" usedObjects="293761" usedObjSpace="5301432" totalObjSpace="10227712"/>
+<gcStart threadIdRef="2" time="1257502509.338807344"/>
+<gcFinish threadIdRef="2" time="1257502509.465068817" usedObjects="299875" usedObjSpace="5552208" totalObjSpace="10227712"/>
+<gcStart threadIdRef="2" time="1257502511.078136205"/>
+<gcFinish threadIdRef="2" time="1257502511.443051338" usedObjects="303115" usedObjSpace="5114040" totalObjSpace="10227712"/>
+<gcStart threadIdRef="2" time="1257502513.033721446"/>
+<gcFinish threadIdRef="2" time="1257502513.167616844" usedObjects="308563" usedObjSpace="5629280" totalObjSpace="10227712"/>
+<gcStart threadIdRef="2" time="1257502514.534012317"/>
+<gcFinish threadIdRef="2" time="1257502514.661571979" usedObjects="313027" usedObjSpace="5940752" totalObjSpace="10690560"/>
+<gcStart threadIdRef="2" time="1257502516.141079425"/>
+<gcFinish threadIdRef="2" time="1257502516.278793811" usedObjects="317596" usedObjSpace="6049872" totalObjSpace="10870784"/>
+<gcStart threadIdRef="2" time="1257502517.870452642"/>
+<gcFinish threadIdRef="2" time="1257502518.105804204" usedObjects="323641" usedObjSpace="5602568" totalObjSpace="10870784"/>
+<gcStart threadIdRef="2" time="1257502520.118813276"/>
+<gcFinish threadIdRef="2" time="1257502520.257243394" usedObjects="329534" usedObjSpace="6444064" totalObjSpace="11595776"/>
+<gcStart threadIdRef="2" time="1257502523.217240571"/>
+<gcFinish threadIdRef="2" time="1257502523.367711544" usedObjects="336870" usedObjSpace="6541536" totalObjSpace="11755520"/>
+<gcStart threadIdRef="2" time="1257502527.187355995"/>
+<gcFinish threadIdRef="2" time="1257502527.360713958" usedObjects="343604" usedObjSpace="6764552" totalObjSpace="12193792"/>
+<gcStart threadIdRef="2" time="1257502532.230395317"/>
+<gcFinish threadIdRef="2" time="1257502532.745367527" usedObjects="358028" usedObjSpace="6713728" totalObjSpace="12193792"/>
+<gcStart threadIdRef="2" time="1257502536.973701238"/>
+<gcFinish threadIdRef="2" time="1257502537.199099063" usedObjects="364913" usedObjSpace="7455464" totalObjSpace="13410304"/>
+<gcStart threadIdRef="2" time="1257502539.926898956"/>
+<gcFinish threadIdRef="2" time="1257502540.083936691" usedObjects="363134" usedObjSpace="7458912" totalObjSpace="13410304"/>
+<gcStart threadIdRef="2" time="1257502542.721511602"/>
+<gcFinish threadIdRef="2" time="1257502542.867018222" usedObjects="363392" usedObjSpace="7461136" totalObjSpace="13410304"/>
+<gcStart threadIdRef="2" time="1257502545.646327733"/>
+<gcFinish threadIdRef="2" time="1257502546.114940166" usedObjects="367874" usedObjSpace="6927232" totalObjSpace="13410304"/>
+<objAlloc threadIdRef="8" time="1257502549.898433685" objId="1351255" classIdRef="157" isArray="0" size="72"/>
+<threadStart threadId="8" time="1257502549.898432493" threadName="ContainerBackgroundProcessor[StandardEngine[Catalina]]" groupName="main" parentName="system" objIdRef="1351255"/>
+<gcStart threadIdRef="2" time="1257502552.500725507"/>
+<gcFinish threadIdRef="2" time="1257502552.854475259" usedObjects="389693" usedObjSpace="8025784" totalObjSpace="14491648"/>
+<objAlloc threadIdRef="9" time="1257502553.287361145" objId="1400138" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="9" name="org.apache.tomcat.util.threads.ThreadWithAttributes" sourceName="ThreadWithAttributes.java" classId="1400137" objIdRef="1400138" time="1257502553.286808967"/>
+<objAlloc threadIdRef="9" time="1257502553.287360668" objId="1400139" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="9" time="1257502553.287359476" threadName="http-8080-Processor1" groupName="main" parentName="system" objIdRef="1400139"/>
+<objAlloc threadIdRef="10" time="1257502553.287670850" objId="1400150" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="10" time="1257502553.287669897" threadName="http-8080-Processor2" groupName="main" parentName="system" objIdRef="1400150"/>
+<objAlloc threadIdRef="11" time="1257502553.288007736" objId="1400160" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="11" time="1257502553.288006782" threadName="http-8080-Processor3" groupName="main" parentName="system" objIdRef="1400160"/>
+<objAlloc threadIdRef="12" time="1257502553.288361549" objId="1400170" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="12" time="1257502553.288360595" threadName="http-8080-Processor4" groupName="main" parentName="system" objIdRef="1400170"/>
+<objAlloc threadIdRef="13" time="1257502553.288694381" objId="1400180" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="13" time="1257502553.288693428" threadName="http-8080-Processor5" groupName="main" parentName="system" objIdRef="1400180"/>
+<objAlloc threadIdRef="14" time="1257502553.289012193" objId="1400190" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="14" time="1257502553.289011240" threadName="http-8080-Processor6" groupName="main" parentName="system" objIdRef="1400190"/>
+<objAlloc threadIdRef="15" time="1257502553.289360523" objId="1400200" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="15" time="1257502553.289359569" threadName="http-8080-Processor7" groupName="main" parentName="system" objIdRef="1400200"/>
+<objAlloc threadIdRef="16" time="1257502553.289677619" objId="1400210" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="16" time="1257502553.289676904" threadName="http-8080-Processor8" groupName="main" parentName="system" objIdRef="1400210"/>
+<objAlloc threadIdRef="17" time="1257502553.290011644" objId="1400220" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="17" time="1257502553.290010929" threadName="http-8080-Processor9" groupName="main" parentName="system" objIdRef="1400220"/>
+<objAlloc threadIdRef="18" time="1257502553.290374517" objId="1400230" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="18" time="1257502553.290373563" threadName="http-8080-Processor10" groupName="main" parentName="system" objIdRef="1400230"/>
+<objAlloc threadIdRef="19" time="1257502553.290712833" objId="1400240" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="19" time="1257502553.290711879" threadName="http-8080-Processor11" groupName="main" parentName="system" objIdRef="1400240"/>
+<objAlloc threadIdRef="20" time="1257502553.291166067" objId="1400250" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="20" time="1257502553.291165113" threadName="http-8080-Processor12" groupName="main" parentName="system" objIdRef="1400250"/>
+<objAlloc threadIdRef="21" time="1257502553.291584730" objId="1400260" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="21" time="1257502553.291583776" threadName="http-8080-Processor13" groupName="main" parentName="system" objIdRef="1400260"/>
+<objAlloc threadIdRef="22" time="1257502553.291919946" objId="1400270" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="22" time="1257502553.291918992" threadName="http-8080-Processor14" groupName="main" parentName="system" objIdRef="1400270"/>
+<objAlloc threadIdRef="23" time="1257502553.292422056" objId="1400280" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="23" time="1257502553.292421102" threadName="http-8080-Processor15" groupName="main" parentName="system" objIdRef="1400280"/>
+<objAlloc threadIdRef="24" time="1257502553.292641401" objId="1400290" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="24" time="1257502553.292640447" threadName="http-8080-Processor16" groupName="main" parentName="system" objIdRef="1400290"/>
+<objAlloc threadIdRef="25" time="1257502553.292978286" objId="1400300" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="25" time="1257502553.292977571" threadName="http-8080-Processor17" groupName="main" parentName="system" objIdRef="1400300"/>
+<objAlloc threadIdRef="26" time="1257502553.293339490" objId="1400310" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="26" time="1257502553.293338298" threadName="http-8080-Processor18" groupName="main" parentName="system" objIdRef="1400310"/>
+<objAlloc threadIdRef="27" time="1257502553.293678522" objId="1400320" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="27" time="1257502553.293677568" threadName="http-8080-Processor19" groupName="main" parentName="system" objIdRef="1400320"/>
+<objAlloc threadIdRef="28" time="1257502553.294058799" objId="1400330" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="28" time="1257502553.294057846" threadName="http-8080-Processor20" groupName="main" parentName="system" objIdRef="1400330"/>
+<objAlloc threadIdRef="29" time="1257502553.294369697" objId="1400340" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="29" time="1257502553.294368743" threadName="http-8080-Processor21" groupName="main" parentName="system" objIdRef="1400340"/>
+<objAlloc threadIdRef="30" time="1257502553.294707059" objId="1400350" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="30" time="1257502553.294706106" threadName="http-8080-Processor22" groupName="main" parentName="system" objIdRef="1400350"/>
+<objAlloc threadIdRef="31" time="1257502553.295071840" objId="1400360" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="31" time="1257502553.295071125" threadName="http-8080-Processor23" groupName="main" parentName="system" objIdRef="1400360"/>
+<objAlloc threadIdRef="32" time="1257502553.295413494" objId="1400370" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="32" time="1257502553.295412778" threadName="http-8080-Processor24" groupName="main" parentName="system" objIdRef="1400370"/>
+<objAlloc threadIdRef="33" time="1257502553.295746803" objId="1400380" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="33" time="1257502553.295746088" threadName="http-8080-Processor25" groupName="main" parentName="system" objIdRef="1400380"/>
+<objAlloc threadIdRef="34" time="1257502553.296132802" objId="1400397" classIdRef="157" isArray="0" size="72"/>
+<threadStart threadId="34" time="1257502553.296132087" threadName="http-8080-Monitor" groupName="main" parentName="system" objIdRef="1400397"/>
+<gcStart threadIdRef="2" time="1257502554.972519874"/>
+<gcFinish threadIdRef="2" time="1257502555.225590467" usedObjects="398922" usedObjSpace="8431152" totalObjSpace="15167488"/>
+<methodDef name="doFilter" signature="(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V" startLineNumber="41" endLineNumber="47" methodId="601393" classIdRef="601397"/>
+<methodEntry threadIdRef="32" time="1257502556.690820693" methodIdRef="601393" objIdRef="601398" classIdRef="601397" ticket="283200" stackDepth="15"/>
+<methodDef name="doProcess" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" startLineNumber="35" endLineNumber="95" methodId="602115" classIdRef="602119"/>
+<methodEntry threadIdRef="32" time="1257502556.760997295" methodIdRef="602115" objIdRef="602191" classIdRef="602119" ticket="291051" stackDepth="16"/>
+<methodExit threadIdRef="32" methodIdRef="602115" objIdRef="602191" classIdRef="602119" ticket="291051" time="1257502556.813014984" overhead="0.000058996"/>
+<methodExit threadIdRef="32" methodIdRef="601393" objIdRef="601398" classIdRef="601397" ticket="283200" time="1257502556.813041210" overhead="0.000121838"/>
+<methodEntry threadIdRef="32" time="1257502556.977000951" methodIdRef="601393" objIdRef="601398" classIdRef="601397" ticket="337674" stackDepth="15"/>
+<methodEntry threadIdRef="32" time="1257502556.977020740" methodIdRef="602115" objIdRef="602191" classIdRef="602119" ticket="337675" stackDepth="16"/>
+<objAlloc threadIdRef="32" time="1257502557.254573345" objId="602054" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="fr.nta.security.jgss.NtaProvider" sourceName="NtaProvider.java" classId="1496267" objIdRef="602054" time="1257502557.254571199"/>
+<methodDef name="-clinit-" signature="()V" startLineNumber="11" endLineNumber="9" methodId="1496265" classIdRef="1496267"/>
+<methodEntry threadIdRef="32" time="1257502557.254551410" methodIdRef="1496265" classIdRef="1496267" ticket="403295" stackDepth="17"/>
+<objAlloc threadIdRef="32" time="1257502557.328246116" objId="1497970" classIdRef="1496267" isArray="0" size="72"/>
+<methodDef name="-init-" signature="()V" startLineNumber="16" endLineNumber="25" methodId="1496266" classIdRef="1496267"/>
+<methodEntry threadIdRef="32" time="1257502557.328263998" methodIdRef="1496266" objIdRef="1497970" classIdRef="1496267" ticket="413993" stackDepth="18"/>
+<objAlloc threadIdRef="32" time="1257502557.372858285" objId="1498903" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="fr.nta.security.jgss.NtaProvider$1" sourceName="NtaProvider.java" classId="1498993" objIdRef="1498903" time="1257502557.372855901"/>
+<objAlloc threadIdRef="32" time="1257502557.372857809" objId="1498994" classIdRef="1498993" isArray="0" size="16"/>
+<methodDef name="-init-" signature="(Lfr/nta/security/jgss/NtaProvider;)V" startLineNumber="18" endLineNumber="1" methodId="1498992" classIdRef="1498993"/>
+<methodEntry threadIdRef="32" time="1257502557.372892379" methodIdRef="1498992" objIdRef="1498994" classIdRef="1498993" ticket="423621" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1498992" objIdRef="1498994" classIdRef="1498993" ticket="423621" time="1257502557.372915506" overhead="0.000015928"/>
+<objAlloc threadIdRef="32" time="1257502557.374501466" objId="339" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="java.security.AccessController" sourceName="AccessController.java" classId="338" objIdRef="339" time="1257502425.770341157"/>
+<methodDef name="doPrivileged" signature="(Ljava/security/PrivilegedAction;)Ljava/lang/Object;" methodId="333" classIdRef="338"/>
+<methodEntry threadIdRef="32" time="1257502557.374494314" methodIdRef="333" classIdRef="338" ticket="424066" stackDepth="19"/>
+<methodDef name="run" signature="()Ljava/lang/Object;" startLineNumber="20" endLineNumber="21" methodId="1498991" classIdRef="1498993"/>
+<methodEntry threadIdRef="32" time="1257502557.374500036" methodIdRef="1498991" objIdRef="1498994" classIdRef="1498993" ticket="424067" stackDepth="20"/>
+<methodDef name="access$0" signature="()Ljava/lang/String;" startLineNumber="11" endLineNumber="11" methodId="1496264" classIdRef="1496267"/>
+<methodEntry threadIdRef="32" time="1257502557.374588489" methodIdRef="1496264" classIdRef="1496267" ticket="424077" stackDepth="21"/>
+<methodExit threadIdRef="32" methodIdRef="1496264" classIdRef="1496267" ticket="424077" time="1257502557.374614238" overhead="0.000022105"/>
+<methodExit threadIdRef="32" methodIdRef="1498991" objIdRef="1498994" classIdRef="1498993" ticket="424067" time="1257502557.374713182" overhead="0.000049342"/>
+<methodExit threadIdRef="32" methodIdRef="333" classIdRef="338" ticket="424066" time="1257502557.374722719" overhead="0.000001751"/>
+<methodExit threadIdRef="32" methodIdRef="1496266" objIdRef="1497970" classIdRef="1496267" ticket="413993" time="1257502557.374730587" overhead="0.000077127"/>
+<methodExit threadIdRef="32" methodIdRef="1496265" classIdRef="1496267" ticket="403295" time="1257502557.374740123" overhead="0.000076048"/>
+<objAlloc threadIdRef="32" time="1257502557.374749898" objId="1499031" classIdRef="1496267" isArray="0" size="72"/>
+<methodEntry threadIdRef="32" time="1257502557.374760389" methodIdRef="1496266" objIdRef="1499031" classIdRef="1496267" ticket="424098" stackDepth="17"/>
+<objAlloc threadIdRef="32" time="1257502557.374801397" objId="1499033" classIdRef="1498993" isArray="0" size="16"/>
+<methodEntry threadIdRef="32" time="1257502557.374809026" methodIdRef="1498992" objIdRef="1499033" classIdRef="1498993" ticket="424106" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1498992" objIdRef="1499033" classIdRef="1498993" ticket="424106" time="1257502557.374818325" overhead="0.000008105"/>
+<methodEntry threadIdRef="32" time="1257502557.374824285" methodIdRef="333" classIdRef="338" ticket="424107" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.374827623" methodIdRef="1498991" objIdRef="1499033" classIdRef="1498993" ticket="424108" stackDepth="19"/>
+<methodEntry threadIdRef="32" time="1257502557.374840974" methodIdRef="1496264" classIdRef="1496267" ticket="424109" stackDepth="20"/>
+<methodExit threadIdRef="32" methodIdRef="1496264" classIdRef="1496267" ticket="424109" time="1257502557.374850511" overhead="0.000007131"/>
+<methodExit threadIdRef="32" methodIdRef="1498991" objIdRef="1499033" classIdRef="1498993" ticket="424108" time="1257502557.374927520" overhead="0.000013563"/>
+<methodExit threadIdRef="32" methodIdRef="333" classIdRef="338" ticket="424107" time="1257502557.374936103" overhead="0.000001481"/>
+<methodExit threadIdRef="32" methodIdRef="1496266" objIdRef="1499031" classIdRef="1496267" ticket="424098" time="1257502557.374943256" overhead="0.000019037"/>
+<objAlloc threadIdRef="32" time="1257502557.416679620" objId="1499885" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="fr.nta.parser.asn1.test" sourceName="test.java" classId="1499977" objIdRef="1499885" time="1257502557.416677474"/>
+<methodDef name="seeProviderList" signature="()V" startLineNumber="9" endLineNumber="20" methodId="1499974" classIdRef="1499977"/>
+<methodEntry threadIdRef="32" time="1257502557.416661500" methodIdRef="1499974" classIdRef="1499977" ticket="433784" stackDepth="17"/>
+<methodExit threadIdRef="32" methodIdRef="1499974" classIdRef="1499977" ticket="433784" time="1257502557.611535072" overhead="0.000348545"/>
+<objAlloc threadIdRef="32" time="1257502557.648549079" objId="1504484" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="fr.nta.parser.asn1.asn1der" sourceName="asn1der.java" classId="1504582" objIdRef="1504484" time="1257502557.648546934"/>
+<methodDef name="getKrbToken" signature="([B)[B" startLineNumber="13" endLineNumber="101" methodId="1504579" classIdRef="1504582"/>
+<methodEntry threadIdRef="32" time="1257502557.648516654" methodIdRef="1504579" classIdRef="1504582" ticket="485281" stackDepth="17"/>
+<methodDef name="int2byte" signature="(I)I" startLineNumber="144" endLineNumber="146" methodId="1504577" classIdRef="1504582"/>
+<methodEntry threadIdRef="32" time="1257502557.648587226" methodIdRef="1504577" classIdRef="1504582" ticket="485282" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485282" time="1257502557.648601770" overhead="0.000013146"/>
+<methodDef name="endSizeTagIndex" signature="([BI)I" startLineNumber="131" endLineNumber="140" methodId="1504576" classIdRef="1504582"/>
+<methodEntry threadIdRef="32" time="1257502557.648616790" methodIdRef="1504576" classIdRef="1504582" ticket="485283" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.648629903" methodIdRef="1504577" classIdRef="1504582" ticket="485284" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485284" time="1257502557.648638248" overhead="0.000007221"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="485283" time="1257502557.648645639" overhead="0.000013093"/>
+<methodEntry threadIdRef="32" time="1257502557.648651361" methodIdRef="1504577" classIdRef="1504582" ticket="485285" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485285" time="1257502557.648659467" overhead="0.000007142"/>
+<methodEntry threadIdRef="32" time="1257502557.648665189" methodIdRef="1504576" classIdRef="1504582" ticket="485286" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.648672103" methodIdRef="1504577" classIdRef="1504582" ticket="485287" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485287" time="1257502557.648679971" overhead="0.000007000"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="485286" time="1257502557.648687124" overhead="0.000006921"/>
+<methodDef name="getStructSize" signature="([BII)I" startLineNumber="118" endLineNumber="127" methodId="1504575" classIdRef="1504582"/>
+<methodEntry threadIdRef="32" time="1257502557.648694992" methodIdRef="1504575" classIdRef="1504582" ticket="485288" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.648708105" methodIdRef="1504577" classIdRef="1504582" ticket="485289" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485289" time="1257502557.648716211" overhead="0.000007139"/>
+<methodExit threadIdRef="32" methodIdRef="1504575" classIdRef="1504582" ticket="485288" time="1257502557.648723363" overhead="0.000012676"/>
+<methodDef name="getOid" signature="([BIII)Lorg/ietf/jgss/Oid;" startLineNumber="105" endLineNumber="105" methodId="1504578" classIdRef="1504582"/>
+<methodEntry threadIdRef="32" time="1257502557.648731231" methodIdRef="1504578" classIdRef="1504582" ticket="485290" stackDepth="18"/>
+<methodDef name="getStructure" signature="([BIII)[B" startLineNumber="109" endLineNumber="114" methodId="1504574" classIdRef="1504582"/>
+<methodEntry threadIdRef="32" time="1257502557.670960426" methodIdRef="1504574" classIdRef="1504582" ticket="485720" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504574" classIdRef="1504582" ticket="485720" time="1257502557.670998334" overhead="0.000032703"/>
+<methodExit threadIdRef="32" methodIdRef="1504578" classIdRef="1504582" ticket="485290" time="1257502557.671305894" overhead="0.000079992"/>
+<methodEntry threadIdRef="32" time="1257502557.671314954" methodIdRef="1504577" classIdRef="1504582" ticket="485802" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485802" time="1257502557.671323776" overhead="0.000007875"/>
+<methodEntry threadIdRef="32" time="1257502557.671329736" methodIdRef="1504576" classIdRef="1504582" ticket="485803" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.671336889" methodIdRef="1504577" classIdRef="1504582" ticket="485804" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485804" time="1257502557.671344757" overhead="0.000007000"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="485803" time="1257502557.671351909" overhead="0.000007206"/>
+<methodEntry threadIdRef="32" time="1257502557.671357631" methodIdRef="1504577" classIdRef="1504582" ticket="485805" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485805" time="1257502557.671365737" overhead="0.000007184"/>
+<methodEntry threadIdRef="32" time="1257502557.671377420" methodIdRef="1504576" classIdRef="1504582" ticket="485806" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.671385049" methodIdRef="1504577" classIdRef="1504582" ticket="485807" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485807" time="1257502557.671392917" overhead="0.000007033"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="485806" time="1257502557.671399831" overhead="0.000007635"/>
+<methodEntry threadIdRef="32" time="1257502557.671405315" methodIdRef="1504577" classIdRef="1504582" ticket="485808" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485808" time="1257502557.671413421" overhead="0.000006977"/>
+<methodEntry threadIdRef="32" time="1257502557.671419143" methodIdRef="1504576" classIdRef="1504582" ticket="485809" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.671425819" methodIdRef="1504577" classIdRef="1504582" ticket="485810" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485810" time="1257502557.671433687" overhead="0.000006984"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="485809" time="1257502557.671440601" overhead="0.000006823"/>
+<methodEntry threadIdRef="32" time="1257502557.671446323" methodIdRef="1504577" classIdRef="1504582" ticket="485811" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485811" time="1257502557.671454191" overhead="0.000006951"/>
+<methodEntry threadIdRef="32" time="1257502557.671459674" methodIdRef="1504576" classIdRef="1504582" ticket="485812" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.671466350" methodIdRef="1504577" classIdRef="1504582" ticket="485813" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485813" time="1257502557.671473979" overhead="0.000006819"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="485812" time="1257502557.671480894" overhead="0.000006827"/>
+<methodEntry threadIdRef="32" time="1257502557.671486854" methodIdRef="1504577" classIdRef="1504582" ticket="485814" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485814" time="1257502557.671494722" overhead="0.000007082"/>
+<methodEntry threadIdRef="32" time="1257502557.671500444" methodIdRef="1504576" classIdRef="1504582" ticket="485815" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.671507120" methodIdRef="1504577" classIdRef="1504582" ticket="485816" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485816" time="1257502557.671514987" overhead="0.000007041"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="485815" time="1257502557.671521663" overhead="0.000006800"/>
+<methodEntry threadIdRef="32" time="1257502557.671527385" methodIdRef="1504575" classIdRef="1504582" ticket="485817" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.671534538" methodIdRef="1504577" classIdRef="1504582" ticket="485818" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485818" time="1257502557.671542406" overhead="0.000006954"/>
+<methodExit threadIdRef="32" methodIdRef="1504575" classIdRef="1504582" ticket="485817" time="1257502557.671549558" overhead="0.000007154"/>
+<methodEntry threadIdRef="32" time="1257502557.671555519" methodIdRef="1504578" classIdRef="1504582" ticket="485819" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.671566009" methodIdRef="1504574" classIdRef="1504582" ticket="485820" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504574" classIdRef="1504582" ticket="485820" time="1257502557.671577692" overhead="0.000008796"/>
+<methodExit threadIdRef="32" methodIdRef="1504578" classIdRef="1504582" ticket="485819" time="1257502557.671821594" overhead="0.000009067"/>
+<methodEntry threadIdRef="32" time="1257502557.671832799" methodIdRef="1504577" classIdRef="1504582" ticket="485908" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485908" time="1257502557.671841859" overhead="0.000008003"/>
+<methodEntry threadIdRef="32" time="1257502557.671847820" methodIdRef="1504576" classIdRef="1504582" ticket="485909" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.671854734" methodIdRef="1504577" classIdRef="1504582" ticket="485910" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485910" time="1257502557.671862840" overhead="0.000007093"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="485909" time="1257502557.671869993" overhead="0.000007172"/>
+<methodEntry threadIdRef="32" time="1257502557.671875715" methodIdRef="1504575" classIdRef="1504582" ticket="485911" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.671946048" methodIdRef="1504577" classIdRef="1504582" ticket="485912" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="485912" time="1257502557.671955108" overhead="0.000008022"/>
+<methodExit threadIdRef="32" methodIdRef="1504575" classIdRef="1504582" ticket="485911" time="1257502557.671962261" overhead="0.000068966"/>
+<methodEntry threadIdRef="32" time="1257502557.671967983" methodIdRef="1504578" classIdRef="1504582" ticket="485913" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.671979427" methodIdRef="1504574" classIdRef="1504582" ticket="485914" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504574" classIdRef="1504582" ticket="485914" time="1257502557.671992301" overhead="0.000009785"/>
+<methodExit threadIdRef="32" methodIdRef="1504578" classIdRef="1504582" ticket="485913" time="1257502557.672237873" overhead="0.000009225"/>
+<methodEntry threadIdRef="32" time="1257502557.672246217" methodIdRef="1504577" classIdRef="1504582" ticket="486002" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486002" time="1257502557.672254562" overhead="0.000007484"/>
+<methodEntry threadIdRef="32" time="1257502557.672260522" methodIdRef="1504576" classIdRef="1504582" ticket="486003" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.672267436" methodIdRef="1504577" classIdRef="1504582" ticket="486004" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486004" time="1257502557.672275066" overhead="0.000006868"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="486003" time="1257502557.672281980" overhead="0.000007075"/>
+<methodEntry threadIdRef="32" time="1257502557.672287702" methodIdRef="1504575" classIdRef="1504582" ticket="486005" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.672294616" methodIdRef="1504577" classIdRef="1504582" ticket="486006" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486006" time="1257502557.672302484" overhead="0.000007015"/>
+<methodExit threadIdRef="32" methodIdRef="1504575" classIdRef="1504582" ticket="486005" time="1257502557.672309398" overhead="0.000006906"/>
+<methodEntry threadIdRef="32" time="1257502557.672315120" methodIdRef="1504578" classIdRef="1504582" ticket="486007" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.672325849" methodIdRef="1504574" classIdRef="1504582" ticket="486008" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504574" classIdRef="1504582" ticket="486008" time="1257502557.672337532" overhead="0.000008733"/>
+<methodExit threadIdRef="32" methodIdRef="1504578" classIdRef="1504582" ticket="486007" time="1257502557.672600746" overhead="0.000009477"/>
+<methodEntry threadIdRef="32" time="1257502557.672608613" methodIdRef="1504577" classIdRef="1504582" ticket="486107" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486107" time="1257502557.672620534" overhead="0.000010909"/>
+<methodEntry threadIdRef="32" time="1257502557.672626972" methodIdRef="1504577" classIdRef="1504582" ticket="486108" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486108" time="1257502557.672635078" overhead="0.000007353"/>
+<methodEntry threadIdRef="32" time="1257502557.672641038" methodIdRef="1504576" classIdRef="1504582" ticket="486109" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.672647476" methodIdRef="1504577" classIdRef="1504582" ticket="486110" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486110" time="1257502557.672655344" overhead="0.000006962"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="486109" time="1257502557.672662258" overhead="0.000006770"/>
+<methodEntry threadIdRef="32" time="1257502557.672667980" methodIdRef="1504577" classIdRef="1504582" ticket="486111" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486111" time="1257502557.672675848" overhead="0.000007018"/>
+<methodEntry threadIdRef="32" time="1257502557.672681570" methodIdRef="1504576" classIdRef="1504582" ticket="486112" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.672688245" methodIdRef="1504577" classIdRef="1504582" ticket="486113" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486113" time="1257502557.672695875" overhead="0.000006823"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="486112" time="1257502557.672702789" overhead="0.000006789"/>
+<methodEntry threadIdRef="32" time="1257502557.672708272" methodIdRef="1504577" classIdRef="1504582" ticket="486114" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486114" time="1257502557.672716140" overhead="0.000007075"/>
+<methodEntry threadIdRef="32" time="1257502557.672721862" methodIdRef="1504576" classIdRef="1504582" ticket="486115" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.672728300" methodIdRef="1504577" classIdRef="1504582" ticket="486116" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486116" time="1257502557.672736167" overhead="0.000006808"/>
+<methodExit threadIdRef="32" methodIdRef="1504576" classIdRef="1504582" ticket="486115" time="1257502557.672743082" overhead="0.000006774"/>
+<methodEntry threadIdRef="32" time="1257502557.672748804" methodIdRef="1504575" classIdRef="1504582" ticket="486117" stackDepth="18"/>
+<methodEntry threadIdRef="32" time="1257502557.672755718" methodIdRef="1504577" classIdRef="1504582" ticket="486118" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486118" time="1257502557.672763586" overhead="0.000006984"/>
+<methodEntry threadIdRef="32" time="1257502557.672769546" methodIdRef="1504577" classIdRef="1504582" ticket="486119" stackDepth="19"/>
+<methodExit threadIdRef="32" methodIdRef="1504577" classIdRef="1504582" ticket="486119" time="1257502557.672777414" overhead="0.000007154"/>
+<methodExit threadIdRef="32" methodIdRef="1504575" classIdRef="1504582" ticket="486117" time="1257502557.672784328" overhead="0.000006849"/>
+<methodEntry threadIdRef="32" time="1257502557.672790050" methodIdRef="1504574" classIdRef="1504582" ticket="486120" stackDepth="18"/>
+<methodExit threadIdRef="32" methodIdRef="1504574" classIdRef="1504582" ticket="486120" time="1257502557.672854185" overhead="0.000009169"/>
+<methodExit threadIdRef="32" methodIdRef="1504579" classIdRef="1504582" ticket="485281" time="1257502557.672862052" overhead="0.000065646"/>
+<methodDef name="logContext" signature="(Lorg/ietf/jgss/GSSContext;)V" startLineNumber="130" endLineNumber="146" methodId="602114" classIdRef="602119"/>
+<methodEntry threadIdRef="32" time="1257502557.706195354" methodIdRef="602114" objIdRef="602191" classIdRef="602119" ticket="490594" stackDepth="17"/>
+<methodExit threadIdRef="32" methodIdRef="602114" objIdRef="602191" classIdRef="602119" ticket="490594" time="1257502557.732437849" overhead="0.000094763"/>
+<objAlloc threadIdRef="32" time="1257502557.847321987" objId="1505456" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="sun.security.jgss.GSSContextImpl" sourceName="GSSContextImpl.java" classId="1505455" objIdRef="1505456" time="1257502557.706146240"/>
+<objAlloc threadIdRef="32" time="1257502557.847321271" objId="1505457" classIdRef="1505455" isArray="0" size="64"/>
+<methodDef name="acceptSecContext" signature="([BII)[B" startLineNumber="245" endLineNumber="248" methodId="1505448" classIdRef="1505455"/>
+<methodEntry threadIdRef="32" time="1257502557.732475757" methodIdRef="1505448" objIdRef="1505457" classIdRef="1505455" ticket="496026" stackDepth="17"/>
+<methodDef name="acceptSecContext" signature="(Ljava/io/InputStream;Ljava/io/OutputStream;)V" startLineNumber="254" endLineNumber="321" methodId="1505447" classIdRef="1505455"/>
+<methodEntry threadIdRef="32" time="1257502557.732527017" methodIdRef="1505447" objIdRef="1505457" classIdRef="1505455" ticket="496032" stackDepth="18"/>
+<objAlloc threadIdRef="32" time="1257502557.847374677" objId="1505046" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="sun.security.jgss.GSSManagerImpl" sourceName="GSSManagerImpl.java" classId="1505045" objIdRef="1505046" time="1257502557.690765857"/>
+<objAlloc threadIdRef="32" time="1257502557.847374200" objId="1505047" classIdRef="1505045" isArray="0" size="16"/>
+<methodDef name="createCredential" signature="(Lorg/ietf/jgss/GSSName;ILorg/ietf/jgss/Oid;I)Lorg/ietf/jgss/GSSCredential;" startLineNumber="102" endLineNumber="102" methodId="1505027" classIdRef="1505045"/>
+<methodEntry threadIdRef="32" time="1257502557.733708620" methodIdRef="1505027" objIdRef="1505047" classIdRef="1505045" ticket="496302" stackDepth="19"/>
+<objAlloc threadIdRef="32" time="1257502557.847402572" objId="1506021" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="sun.security.jgss.GSSCredentialImpl" sourceName="GSSCredentialImpl.java" classId="1506020" objIdRef="1506021" time="1257502557.734261512"/>
+<objAlloc threadIdRef="32" time="1257502557.847401857" objId="1506022" classIdRef="1506020" isArray="0" size="24"/>
+<methodDef name="-init-" signature="(Lsun/security/jgss/GSSManagerImpl;Lorg/ietf/jgss/GSSName;ILorg/ietf/jgss/Oid;I)V" startLineNumber="42" endLineNumber="45" methodId="1506018" classIdRef="1506020"/>
+<methodEntry threadIdRef="32" time="1257502557.734270334" methodIdRef="1506018" objIdRef="1506022" classIdRef="1506020" ticket="496303" stackDepth="20"/>
+<methodDef name="add" signature="(Lorg/ietf/jgss/GSSName;IILorg/ietf/jgss/Oid;I)V" startLineNumber="320" endLineNumber="382" methodId="1506010" classIdRef="1506020"/>
+<methodEntry threadIdRef="32" time="1257502557.734504222" methodIdRef="1506010" objIdRef="1506022" classIdRef="1506020" ticket="496336" stackDepth="21"/>
+<methodDef name="getCredentialElement" signature="(Lsun/security/jgss/spi/GSSNameSpi;IILorg/ietf/jgss/Oid;I)Lsun/security/jgss/spi/GSSCredentialSpi;" startLineNumber="144" endLineNumber="149" methodId="1505035" classIdRef="1505045"/>
+<methodEntry threadIdRef="32" time="1257502557.734637022" methodIdRef="1505035" objIdRef="1505047" classIdRef="1505045" ticket="496342" stackDepth="22"/>
+<objAlloc threadIdRef="32" time="1257502557.847453117" objId="1505158" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="sun.security.jgss.krb5.Krb5MechFactory" sourceName="Krb5MechFactory.java" classId="1505157" objIdRef="1505158" time="1257502557.700127601"/>
+<objAlloc threadIdRef="32" time="1257502557.847452402" objId="1505359" classIdRef="1505157" isArray="0" size="8"/>
+<methodDef name="getCredentialElement" signature="(Lsun/security/jgss/spi/GSSNameSpi;III)Lsun/security/jgss/spi/GSSCredentialSpi;" startLineNumber="61" endLineNumber="83" methodId="1505153" classIdRef="1505157"/>
+<methodEntry threadIdRef="32" time="1257502557.734656572" methodIdRef="1505153" objIdRef="1505359" classIdRef="1505157" ticket="496347" stackDepth="23"/>
+<objAlloc threadIdRef="32" time="1257502557.847486019" objId="1506262" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="sun.security.jgss.krb5.Krb5AcceptCredential" sourceName="Krb5AcceptCredential.java" classId="1506261" objIdRef="1506262" time="1257502557.750912427"/>
+<methodDef name="getInstance" signature="(Lsun/security/jgss/krb5/Krb5NameElement;)Lsun/security/jgss/krb5/Krb5AcceptCredential;" startLineNumber="80" endLineNumber="91" methodId="1506256" classIdRef="1506261"/>
+<methodEntry threadIdRef="32" time="1257502557.750968933" methodIdRef="1506256" classIdRef="1506261" ticket="496354" stackDepth="24"/>
+<methodDef name="getKeyFromSubject" signature="(Lsun/security/jgss/krb5/Krb5NameElement;)Ljavax/security/auth/kerberos/KerberosKey;" startLineNumber="178" endLineNumber="199" methodId="1506245" classIdRef="1506261"/>
+<methodEntry threadIdRef="32" time="1257502557.750971794" methodIdRef="1506245" classIdRef="1506261" ticket="496355" stackDepth="25"/>
+<methodDef name="doPrivileged" signature="(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;" methodId="332" classIdRef="338"/>
+<methodEntry threadIdRef="32" time="1257502557.752246618" methodIdRef="332" classIdRef="338" ticket="496405" stackDepth="26"/>
+<objAlloc threadIdRef="32" time="1257502557.847530841" objId="1506329" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="sun.security.jgss.LoginUtility" sourceName="LoginUtility.java" classId="1506328" objIdRef="1506329" time="1257502557.752113819"/>
+<objAlloc threadIdRef="32" time="1257502557.847530364" objId="1506337" classIdRef="1506328" isArray="0" size="16"/>
+<methodDef name="run" signature="()Ljava/lang/Object;" startLineNumber="53" endLineNumber="58" methodId="1506325" classIdRef="1506328"/>
+<methodEntry threadIdRef="32" time="1257502557.752249240" methodIdRef="1506325" objIdRef="1506337" classIdRef="1506328" ticket="496406" stackDepth="27"/>
+<objAlloc threadIdRef="32" time="1257502557.847557067" objId="1506360" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="javax.security.auth.login.LoginContext" sourceName="LoginContext.java" classId="1506359" objIdRef="1506360" time="1257502557.752639532"/>
+<objAlloc threadIdRef="32" time="1257502557.847556591" objId="1506434" classIdRef="1506359" isArray="0" size="40"/>
+<methodDef name="login" signature="()V" startLineNumber="527" endLineNumber="546" methodId="1506347" classIdRef="1506359"/>
+<methodEntry threadIdRef="32" time="1257502557.783695936" methodIdRef="1506347" objIdRef="1506434" classIdRef="1506359" ticket="500894" stackDepth="28"/>
+<methodDef name="invokeModule" signature="(Ljava/lang/String;)V" startLineNumber="606" endLineNumber="617" methodId="1506345" classIdRef="1506359"/>
+<methodEntry threadIdRef="32" time="1257502557.784767866" methodIdRef="1506345" objIdRef="1506434" classIdRef="1506359" ticket="501014" stackDepth="29"/>
+<methodEntry threadIdRef="32" time="1257502557.784879446" methodIdRef="332" classIdRef="338" ticket="501016" stackDepth="30"/>
+<objAlloc threadIdRef="32" time="1257502557.847598314" objId="1507060" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="javax.security.auth.login.LoginContext$4" sourceName="LoginContext.java" classId="1507059" objIdRef="1507060" time="1257502557.784861564"/>
+<objAlloc threadIdRef="32" time="1257502557.847597837" objId="1507061" classIdRef="1507059" isArray="0" size="16"/>
+<methodDef name="run" signature="()Ljava/lang/Object;" startLineNumber="610" endLineNumber="611" methodId="1507057" classIdRef="1507059"/>
+<methodEntry threadIdRef="32" time="1257502557.784882783" methodIdRef="1507057" objIdRef="1507061" classIdRef="1507059" ticket="501017" stackDepth="31"/>
+<methodDef name="access$000" signature="(Ljavax/security/auth/login/LoginContext;Ljava/lang/String;)V" startLineNumber="129" endLineNumber="129" methodId="1506352" classIdRef="1506359"/>
+<methodEntry threadIdRef="32" time="1257502557.784886360" methodIdRef="1506352" classIdRef="1506359" ticket="501018" stackDepth="32"/>
+<methodDef name="invoke" signature="(Ljava/lang/String;)V" startLineNumber="621" endLineNumber="786" methodId="1506353" classIdRef="1506359"/>
+<methodEntry threadIdRef="32" time="1257502557.784889221" methodIdRef="1506353" objIdRef="1506434" classIdRef="1506359" ticket="501019" stackDepth="33"/>
+<methodDef name="forName" signature="(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;" startLineNumber="209" endLineNumber="219" methodId="90" classIdRef="101"/>
+<methodEntry threadIdRef="32" time="1257502557.784895181" methodIdRef="90" classIdRef="101" ticket="501020" stackDepth="34"/>
+<methodDef name="forName0" signature="(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;" methodId="86" classIdRef="101"/>
+<methodEntry threadIdRef="32" time="1257502557.784897089" methodIdRef="86" classIdRef="101" ticket="501021" stackDepth="35"/>
+<objAlloc threadIdRef="32" time="1257502557.847731590" objId="1507882" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="fr.nta.security.auth.module.Krb5LoginModule" sourceName="Krb5LoginModule.java" classId="1508116" objIdRef="1507882" time="1257502557.847318172"/>
+<methodDef name="-clinit-" signature="()V" startLineNumber="355" endLineNumber="311" methodId="1508114" classIdRef="1508116"/>
+<methodEntry threadIdRef="32" time="1257502557.847259044" methodIdRef="1508114" classIdRef="1508116" ticket="513593" stackDepth="36"/>
+<gcStart threadIdRef="32" time="1257502557.868933200"/>
+<objFree threadIdRef="32" time="1257502558.068385839" objIdRef="1498994"/>
+<objFree threadIdRef="32" time="1257502558.068523168" objIdRef="1499033"/>
+<gcFinish threadIdRef="32" time="1257502558.170348167" usedObjects="418458" usedObjSpace="9199968" totalObjSpace="16515072"/>
+<methodExit threadIdRef="32" methodIdRef="1508114" classIdRef="1508116" ticket="513593" time="1257502558.239241838" overhead="0.000509293"/>
+<methodExit threadIdRef="32" methodIdRef="86" classIdRef="101" ticket="501021" time="1257502558.239299774" overhead="0.000039327"/>
+<methodExit threadIdRef="32" methodIdRef="90" classIdRef="101" ticket="501020" time="1257502558.239309787" overhead="0.000001992"/>
+<objAlloc threadIdRef="32" time="1257502558.239531040" objId="1510343" classIdRef="1508116" isArray="0" size="88"/>
+<objAlloc threadIdRef="32" time="1257502558.239543914" objId="2583" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="java.lang.reflect.Constructor" sourceName="Constructor.java" classId="2582" objIdRef="2583" time="1257502425.793273210"/>
+<objAlloc threadIdRef="32" time="1257502558.239543437" objId="1510338" classIdRef="2582" isArray="0" size="48"/>
+<methodDef name="newInstance" signature="([Ljava/lang/Object;)Ljava/lang/Object;" startLineNumber="264" endLineNumber="274" methodId="2573" classIdRef="2582"/>
+<methodEntry threadIdRef="32" time="1257502558.239447355" methodIdRef="2573" objIdRef="1510338" classIdRef="2582" ticket="535477" stackDepth="34"/>
+<objAlloc threadIdRef="32" time="1257502558.239573001" objId="2701" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="sun.reflect.DelegatingConstructorAccessorImpl" sourceName="DelegatingConstructorAccessorImpl.java" classId="2700" objIdRef="2701" time="1257502425.793742179"/>
+<objAlloc threadIdRef="32" time="1257502558.239572525" objId="1510342" classIdRef="2700" isArray="0" size="16"/>
+<methodDef name="newInstance" signature="([Ljava/lang/Object;)Ljava/lang/Object;" startLineNumber="27" endLineNumber="27" methodId="2698" classIdRef="2700"/>
+<methodEntry threadIdRef="32" time="1257502558.239519357" methodIdRef="2698" objIdRef="1510342" classIdRef="2700" ticket="535499" stackDepth="35"/>
+<objAlloc threadIdRef="32" time="1257502558.239600181" objId="2688" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="sun.reflect.NativeConstructorAccessorImpl" sourceName="NativeConstructorAccessorImpl.java" classId="2687" objIdRef="2688" time="1257502425.793703556"/>
+<objAlloc threadIdRef="32" time="1257502558.239599704" objId="1510341" classIdRef="2687" isArray="0" size="24"/>
+<methodDef name="newInstance" signature="([Ljava/lang/Object;)Ljava/lang/Object;" startLineNumber="29" endLineNumber="39" methodId="2684" classIdRef="2687"/>
+<methodEntry threadIdRef="32" time="1257502558.239520788" methodIdRef="2684" objIdRef="1510341" classIdRef="2687" ticket="535500" stackDepth="36"/>
+<methodDef name="newInstance0" signature="(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;)Ljava/lang/Object;" methodId="2685" classIdRef="2687"/>
+<methodEntry threadIdRef="32" time="1257502558.239525318" methodIdRef="2685" classIdRef="2687" ticket="535502" stackDepth="37"/>
+<methodDef name="-init-" signature="()V" startLineNumber="311" endLineNumber="311" methodId="1508115" classIdRef="1508116"/>
+<methodEntry threadIdRef="32" time="1257502558.239542484" methodIdRef="1508115" objIdRef="1510343" classIdRef="1508116" ticket="535503" stackDepth="38"/>
+<methodExit threadIdRef="32" methodIdRef="1508115" objIdRef="1510343" classIdRef="1508116" ticket="535503" time="1257502558.239687919" overhead="0.000114740"/>
+<methodExit threadIdRef="32" methodIdRef="2685" classIdRef="2687" ticket="535502" time="1257502558.239696979" overhead="0.000013296"/>
+<methodExit threadIdRef="32" methodIdRef="2684" objIdRef="1510341" classIdRef="2687" ticket="535500" time="1257502558.239704370" overhead="0.000002093"/>
+<methodExit threadIdRef="32" methodIdRef="2698" objIdRef="1510342" classIdRef="2700" ticket="535499" time="1257502558.239711284" overhead="0.000002030"/>
+<methodExit threadIdRef="32" methodIdRef="2573" objIdRef="1510338" classIdRef="2582" ticket="535477" time="1257502558.239718198" overhead="0.000002041"/>
+<objAlloc threadIdRef="32" time="1257502558.243477582" objId="2603" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="java.lang.reflect.Method" sourceName="Method.java" classId="2602" objIdRef="2603" time="1257502425.793343782"/>
+<objAlloc threadIdRef="32" time="1257502558.243477106" objId="1510425" classIdRef="2602" isArray="0" size="56"/>
+<methodDef name="invoke" signature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" startLineNumber="309" endLineNumber="324" methodId="2598" classIdRef="2602"/>
+<methodEntry threadIdRef="32" time="1257502558.243409872" methodIdRef="2598" objIdRef="1510425" classIdRef="2602" ticket="536768" stackDepth="34"/>
+<objAlloc threadIdRef="32" time="1257502558.243516206" objId="4621" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="sun.reflect.DelegatingMethodAccessorImpl" sourceName="DelegatingMethodAccessorImpl.java" classId="4620" objIdRef="4621" time="1257502425.856503009"/>
+<objAlloc threadIdRef="32" time="1257502558.243515729" objId="1510441" classIdRef="4620" isArray="0" size="16"/>
+<methodDef name="invoke" signature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" startLineNumber="25" endLineNumber="25" methodId="4618" classIdRef="4620"/>
+<methodEntry threadIdRef="32" time="1257502558.243464469" methodIdRef="4618" objIdRef="1510441" classIdRef="4620" ticket="536785" stackDepth="35"/>
+<objAlloc threadIdRef="32" time="1257502558.243543148" objId="4611" classIdRef="101" isArray="0" size="64"/>
+<classDef threadIdRef="32" name="sun.reflect.NativeMethodAccessorImpl" sourceName="NativeMethodAccessorImpl.java" classId="4610" objIdRef="4611" time="1257502425.856415033"/>
+<objAlloc threadIdRef="32" time="1257502558.243542671" objId="1510440" classIdRef="4610" isArray="0" size="24"/>
+<methodDef name="invoke" signature="(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" startLineNumber="27" endLineNumber="39" methodId="4608" classIdRef="4610"/>
+<methodEntry threadIdRef="32" time="1257502558.243465900" methodIdRef="4608" objIdRef="1510440" classIdRef="4610" ticket="536786" stackDepth="36"/>
+<methodDef name="invoke0" signature="(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;" methodId="4606" classIdRef="4610"/>
+<methodEntry threadIdRef="32" time="1257502558.243470430" methodIdRef="4606" classIdRef="4610" ticket="536788" stackDepth="37"/>
+<methodDef name="initialize" signature="(Ljavax/security/auth/Subject;Ljavax/security/auth/callback/CallbackHandler;Ljava/util/Map;Ljava/util/Map;)V" startLineNumber="382" endLineNumber="416" methodId="1508113" classIdRef="1508116"/>
+<methodEntry threadIdRef="32" time="1257502558.243475914" methodIdRef="1508113" objIdRef="1510343" classIdRef="1508116" ticket="536789" stackDepth="38"/>
+<methodExit threadIdRef="32" methodIdRef="1508113" objIdRef="1510343" classIdRef="1508116" ticket="536789" time="1257502558.246467351" overhead="0.000201124"/>
+<methodExit threadIdRef="32" methodIdRef="4606" classIdRef="4610" ticket="536788" time="1257502558.246482133" overhead="0.000001789"/>
+<methodExit threadIdRef="32" methodIdRef="4608" objIdRef="1510440" classIdRef="4610" ticket="536786" time="1257502558.246489763" overhead="0.000002157"/>
+<methodExit threadIdRef="32" methodIdRef="4618" objIdRef="1510441" classIdRef="4620" ticket="536785" time="1257502558.246497392" overhead="0.000002308"/>
+<methodExit threadIdRef="32" methodIdRef="2598" objIdRef="1510425" classIdRef="2602" ticket="536768" time="1257502558.246504783" overhead="0.000002469"/>
+<objAlloc threadIdRef="32" time="1257502558.246596813" objId="1510429" classIdRef="2602" isArray="0" size="56"/>
+<methodEntry threadIdRef="32" time="1257502558.246536493" methodIdRef="2598" objIdRef="1510429" classIdRef="2602" ticket="537905" stackDepth="34"/>
+<objAlloc threadIdRef="32" time="1257502558.246610164" objId="1510515" classIdRef="4620" isArray="0" size="16"/>
+<methodEntry threadIdRef="32" time="1257502558.246585845" methodIdRef="4618" objIdRef="1510515" classIdRef="4620" ticket="537922" stackDepth="35"/>
+<objAlloc threadIdRef="32" time="1257502558.246620893" objId="1510514" classIdRef="4610" isArray="0" size="24"/>
+<methodEntry threadIdRef="32" time="1257502558.246587276" methodIdRef="4608" objIdRef="1510514" classIdRef="4610" ticket="537923" stackDepth="36"/>
+<methodEntry threadIdRef="32" time="1257502558.246591567" methodIdRef="4606" classIdRef="4610" ticket="537925" stackDepth="37"/>
+<methodDef name="login" signature="()Z" startLineNumber="437" endLineNumber="507" methodId="1508110" classIdRef="1508116"/>
+<methodEntry threadIdRef="32" time="1257502558.246595859" methodIdRef="1508110" objIdRef="1510343" classIdRef="1508116" ticket="537926" stackDepth="38"/>
+<methodDef name="validateConfiguration" signature="()V" startLineNumber="719" endLineNumber="731" methodId="1508107" classIdRef="1508116"/>
+<methodEntry threadIdRef="32" time="1257502558.246651411" methodIdRef="1508107" objIdRef="1510343" classIdRef="1508116" ticket="537927" stackDepth="39"/>
+<methodExit threadIdRef="32" methodIdRef="1508107" objIdRef="1510343" classIdRef="1508116" ticket="537927" time="1257502558.246667385" overhead="0.000014011"/>
+<methodDef name="attemptAuthentication" signature="(Z)V" startLineNumber="523" endLineNumber="615" methodId="1508109" classIdRef="1508116"/>
+<methodEntry threadIdRef="32" time="1257502558.246731042" methodIdRef="1508109" objIdRef="1510343" classIdRef="1508116" ticket="537938" stackDepth="39"/>
+<objAlloc threadIdRef="35" time="1257502560.832097053" objId="1570877" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="35" time="1257502560.832095623" threadName="TP-Processor1" groupName="main" parentName="system" objIdRef="1570877"/>
+<objAlloc threadIdRef="36" time="1257502560.832322120" objId="1570898" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="36" time="1257502560.832320928" threadName="TP-Processor3" groupName="main" parentName="system" objIdRef="1570898"/>
+<objAlloc threadIdRef="37" time="1257502560.832366943" objId="1570918" classIdRef="157" isArray="0" size="72"/>
+<threadStart threadId="37" time="1257502560.832365989" threadName="TP-Monitor" groupName="main" parentName="system" objIdRef="1570918"/>
+<objAlloc threadIdRef="38" time="1257502560.853580236" objId="1570888" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="38" time="1257502560.853578567" threadName="TP-Processor2" groupName="main" parentName="system" objIdRef="1570888"/>
+<objAlloc threadIdRef="39" time="1257502560.853694915" objId="1570908" classIdRef="1400137" isArray="0" size="96"/>
+<threadStart threadId="39" time="1257502560.853693962" threadName="TP-Processor4" groupName="main" parentName="system" objIdRef="1570908"/>
+<gcStart threadIdRef="2" time="1257502560.998398780"/>
+<gcFinish threadIdRef="2" time="1257502561.716978788" usedObjects="442313" usedObjSpace="9019504" totalObjSpace="16515072"/>
+<methodExit threadIdRef="32" methodIdRef="1508109" objIdRef="1510343" classIdRef="1508116" ticket="537938" time="1257502562.011576890" overhead="0.000189853"/>
+<methodDef name="cleanState" signature="()V" startLineNumber="930" endLineNumber="946" methodId="1508106" classIdRef="1508116"/>
+<methodEntry threadIdRef="32" time="1257502562.011606931" methodIdRef="1508106" objIdRef="1510343" classIdRef="1508116" ticket="1325788" stackDepth="39"/>
+<methodExit threadIdRef="32" methodIdRef="1508106" objIdRef="1510343" classIdRef="1508116" ticket="1325788" time="1257502562.011657714" overhead="0.000016379"/>
+<methodExit threadIdRef="32" methodIdRef="1508110" objIdRef="1510343" classIdRef="1508116" ticket="537926" time="1257502562.011666774" overhead="0.000056203"/>
+<methodExit threadIdRef="32" methodIdRef="4606" classIdRef="4610" ticket="537925" time="1257502562.011681795" overhead="0.000004093"/>
+<methodExit threadIdRef="32" methodIdRef="4608" objIdRef="1510514" classIdRef="4610" ticket="537923" time="1257502562.011690616" overhead="0.000002898"/>
+<methodExit threadIdRef="32" methodIdRef="4618" objIdRef="1510515" classIdRef="4620" ticket="537922" time="1257502562.011699199" overhead="0.000002977"/>
+<methodExit threadIdRef="32" methodIdRef="2598" objIdRef="1510429" classIdRef="2602" ticket="537905" time="1257502562.011707782" overhead="0.000002766"/>
+<methodExit threadIdRef="32" methodIdRef="1506353" objIdRef="1506434" classIdRef="1506359" ticket="501019" time="1257502562.011747360" overhead="0.000008597"/>
+<methodExit threadIdRef="32" methodIdRef="1506352" classIdRef="1506359" ticket="501018" time="1257502562.011759519" overhead="0.000002131"/>
+<methodExit threadIdRef="32" methodIdRef="1507057" objIdRef="1507061" classIdRef="1507059" ticket="501017" time="1257502562.011768817" overhead="0.000002518"/>
+<methodExit threadIdRef="32" methodIdRef="332" classIdRef="338" ticket="501016" time="1257502562.011777877" overhead="0.000001981"/>
+<methodExit threadIdRef="32" methodIdRef="1506345" objIdRef="1506434" classIdRef="1506359" ticket="501014" time="1257502562.011785507" overhead="0.000028672"/>
+<methodEntry threadIdRef="32" time="1257502562.011791706" methodIdRef="1506345" objIdRef="1506434" classIdRef="1506359" ticket="1325797" stackDepth="29"/>
+<methodEntry threadIdRef="32" time="1257502562.011802673" methodIdRef="332" classIdRef="338" ticket="1325799" stackDepth="30"/>
+<objAlloc threadIdRef="32" time="1257502562.012234449" objId="1588443" classIdRef="1507059" isArray="0" size="16"/>
+<methodEntry threadIdRef="32" time="1257502562.011809825" methodIdRef="1507057" objIdRef="1588443" classIdRef="1507059" ticket="1325800" stackDepth="31"/>
+<methodEntry threadIdRef="32" time="1257502562.011811256" methodIdRef="1506352" classIdRef="1506359" ticket="1325801" stackDepth="32"/>
+<methodEntry threadIdRef="32" time="1257502562.011812686" methodIdRef="1506353" objIdRef="1506434" classIdRef="1506359" ticket="1325802" stackDepth="33"/>
+<objAlloc threadIdRef="32" time="1257502562.012256145" objId="1588449" classIdRef="2602" isArray="0" size="56"/>
+<methodEntry threadIdRef="32" time="1257502562.012151718" methodIdRef="2598" objIdRef="1588449" classIdRef="2602" ticket="1325902" stackDepth="34"/>
+<objAlloc threadIdRef="32" time="1257502562.012266635" objId="1588465" classIdRef="4620" isArray="0" size="16"/>
+<methodEntry threadIdRef="32" time="1257502562.012207269" methodIdRef="4618" objIdRef="1588465" classIdRef="4620" ticket="1325919" stackDepth="35"/>
+<objAlloc threadIdRef="32" time="1257502562.012277126" objId="1588463" classIdRef="4610" isArray="0" size="24"/>
+<methodEntry threadIdRef="32" time="1257502562.012208938" methodIdRef="4608" objIdRef="1588463" classIdRef="4610" ticket="1325920" stackDepth="36"/>
+<methodEntry threadIdRef="32" time="1257502562.012213706" methodIdRef="4606" classIdRef="4610" ticket="1325922" stackDepth="37"/>
+<methodDef name="commit" signature="()Z" startLineNumber="763" endLineNumber="822" methodId="1508111" classIdRef="1508116"/>
+<methodEntry threadIdRef="32" time="1257502562.012218713" methodIdRef="1508111" objIdRef="1510343" classIdRef="1508116" ticket="1325923" stackDepth="38"/>
+<methodExit threadIdRef="32" methodIdRef="1508111" objIdRef="1510343" classIdRef="1508116" ticket="1325923" time="1257502562.050696611" overhead="0.000287266"/>
+<methodExit threadIdRef="32" methodIdRef="4606" classIdRef="4610" ticket="1325922" time="1257502562.050726175" overhead="0.000003537"/>
+<methodExit threadIdRef="32" methodIdRef="4608" objIdRef="1588463" classIdRef="4610" ticket="1325920" time="1257502562.050734758" overhead="0.000002582"/>
+<methodExit threadIdRef="32" methodIdRef="4618" objIdRef="1588465" classIdRef="4620" ticket="1325919" time="1257502562.050743103" overhead="0.000002887"/>
+<methodExit threadIdRef="32" methodIdRef="2598" objIdRef="1588449" classIdRef="2602" ticket="1325902" time="1257502562.050751686" overhead="0.000002898"/>
+<methodExit threadIdRef="32" methodIdRef="1506353" objIdRef="1506434" classIdRef="1506359" ticket="1325802" time="1257502562.050848722" overhead="0.000005526"/>
+<methodExit threadIdRef="32" methodIdRef="1506352" classIdRef="1506359" ticket="1325801" time="1257502562.050862073" overhead="0.000001958"/>
+<methodExit threadIdRef="32" methodIdRef="1507057" objIdRef="1588443" classIdRef="1507059" ticket="1325800" time="1257502562.050871372" overhead="0.000002748"/>
+<methodExit threadIdRef="32" methodIdRef="332" classIdRef="338" ticket="1325799" time="1257502562.050881147" overhead="0.000002030"/>
+<methodExit threadIdRef="32" methodIdRef="1506345" objIdRef="1506434" classIdRef="1506359" ticket="1325797" time="1257502562.050888776" overhead="0.000004312"/>
+<methodExit threadIdRef="32" methodIdRef="1506347" objIdRef="1506434" classIdRef="1506359" ticket="500894" time="1257502562.050896406" overhead="0.000004413"/>
+<methodExit threadIdRef="32" methodIdRef="1506325" objIdRef="1506337" classIdRef="1506328" ticket="496406" time="1257502562.050915002" overhead="0.000099751"/>
+<methodExit threadIdRef="32" methodIdRef="332" classIdRef="338" ticket="496405" time="1257502562.050923824" overhead="0.000001481"/>
+<methodExit threadIdRef="32" methodIdRef="1506245" classIdRef="1506261" ticket="496355" time="1257502562.051558971" overhead="0.000043003"/>
+<methodExit threadIdRef="32" methodIdRef="1506256" classIdRef="1506261" ticket="496354" time="1257502562.052668571" overhead="0.000030428"/>
+<methodExit threadIdRef="32" methodIdRef="1505153" objIdRef="1505359" classIdRef="1505157" ticket="496347" time="1257502562.052708864" overhead="0.000060842"/>
+<methodExit threadIdRef="32" methodIdRef="1505035" objIdRef="1505047" classIdRef="1505045" ticket="496342" time="1257502562.052726745" overhead="0.000003285"/>
+<methodExit threadIdRef="32" methodIdRef="1506010" objIdRef="1506022" classIdRef="1506020" ticket="496336" time="1257502562.052764654" overhead="0.000035481"/>
+<methodExit threadIdRef="32" methodIdRef="1506018" objIdRef="1506022" classIdRef="1506020" ticket="496303" time="1257502562.052773714" overhead="0.000005015"/>
+<methodExit threadIdRef="32" methodIdRef="1505027" objIdRef="1505047" classIdRef="1505045" ticket="496302" time="1257502562.052781581" overhead="0.000086635"/>
+<methodExit threadIdRef="32" methodIdRef="1505447" objIdRef="1505457" classIdRef="1505455" ticket="496032" time="1257502562.157750606" overhead="0.000085338"/>
+<methodExit threadIdRef="32" methodIdRef="1505448" objIdRef="1505457" classIdRef="1505455" ticket="496026" time="1257502562.157786369" overhead="0.000007672"/>
+<methodEntry threadIdRef="32" time="1257502562.157795906" methodIdRef="602114" objIdRef="602191" classIdRef="602119" ticket="1363599" stackDepth="17"/>
+<methodExit threadIdRef="32" methodIdRef="602114" objIdRef="602191" classIdRef="602119" ticket="1363599" time="1257502562.174900054" overhead="0.000032488"/>
+<methodDef name="doProcess" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" startLineNumber="25" endLineNumber="31" methodId="601392" classIdRef="601397"/>
+<methodEntry threadIdRef="32" time="1257502562.185401916" methodIdRef="601392" objIdRef="601398" classIdRef="601397" ticket="1370647" stackDepth="17"/>
+<methodExit threadIdRef="32" methodIdRef="601392" objIdRef="601398" classIdRef="601397" ticket="1370647" time="1257502562.200659990" overhead="0.000039172"/>
+<methodExit threadIdRef="32" methodIdRef="602115" objIdRef="602191" classIdRef="602119" ticket="337675" time="1257502562.200685977" overhead="0.000121033"/>
+<methodExit threadIdRef="32" methodIdRef="601393" objIdRef="601398" classIdRef="601397" ticket="337674" time="1257502562.200694322" overhead="0.000018744"/>
+<gcStart threadIdRef="2" time="1257502564.662382841"/>
+<objFree threadIdRef="2" time="1257502564.705806732" objIdRef="1505047"/>
+<objFree threadIdRef="2" time="1257502564.705871343" objIdRef="1505359"/>
+<objFree threadIdRef="2" time="1257502564.705903053" objIdRef="1505457"/>
+<objFree threadIdRef="2" time="1257502564.705941200" objIdRef="1506022"/>
+<objFree threadIdRef="2" time="1257502564.705964565" objIdRef="1506337"/>
+<objFree threadIdRef="2" time="1257502564.705972194" objIdRef="1506434"/>
+<objFree threadIdRef="2" time="1257502564.706027269" objIdRef="1507061"/>
+<objFree threadIdRef="2" time="1257502564.706062555" objIdRef="1510343"/>
+<objFree threadIdRef="2" time="1257502564.747446775" objIdRef="1588443"/>
+<gcFinish threadIdRef="2" time="1257502564.923187971" usedObjects="449010" usedObjSpace="9795496" totalObjSpace="17571840"/>

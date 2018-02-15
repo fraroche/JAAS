@@ -1,0 +1,12 @@
+<a href="http://java.sun.com/j2se/1.4.2/docs/guide/security/jgss/tutorials/AcnOnly.html">http://java.sun.com/j2se/1.4.2/docs/guide/security/jgss/tutorials/AcnOnly.html</a>
+
+java 
+-Djava.security.krb5.realm=<your_realm>
+-Djava.security.krb5.kdc=<your_kdc>
+-Djava.security.auth.login.config=jaas.conf JaasAcn
+
+Ex:
+java
+-Djava.security.krb5.realm=CM.PAR.EMEA.CIB 
+-Djava.security.krb5.kdc=CM.PAR.EMEA.CIB
+-Djava.security.auth.login.config=jaas.conf JaasAcn
